@@ -2,9 +2,6 @@
 import time
 import datetime
 
-
-
-
 class Parking_management_system(object):
     # 初始化停车场的容量
     def __init__(self,Parking_capacity,Capacity_of_access_road):
