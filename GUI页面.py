@@ -40,5 +40,6 @@ button_2=Button(windows,text='录入下一辆',command=get_data)
 # 当停车场和便道都满了的时候就可以使用,state='disabled'加到button的属性当中去，禁止输入
 button_2.grid(row=3,column=1,sticky=W)
 # 进入主事件循环
+
 windows.mainloop()
 
